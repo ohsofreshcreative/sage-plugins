@@ -9,6 +9,9 @@ Author: OhSoFresh
 // Hides admin notices and removes the WordPress logo from the admin bar
 add_action('admin_head', function() {
     echo '<style>
+	#toplevel_page_edit-post_type-acf-field-group {
+	display:none !imporatnt;
+	}
         .notice, .update-nag, .notice-warning, .notice-info, .notice-success, .notice-error {
             display: none !important;
         }.wp-block {
@@ -24,6 +27,8 @@ add_action('admin_head', function() {
 .block-editor-block-list__layout > .block-editor-block-list__block {
     margin-bottom: 20px; /* Dodaj odstęp między blokami w edytorze */
 }
+
+
 
         .ant-alert.ant-alert-info.ant-alert-no-icon {
             display: none !important;
