@@ -10,7 +10,7 @@ Author: OhSoFresh
 add_action('admin_head', function() {
     echo '<style>
 	#toplevel_page_edit-post_type-acf-field-group {
-	display:none !imporatnt;
+	display:none !important;
 	}
         .notice, .update-nag, .notice-warning, .notice-info, .notice-success, .notice-error {
             display: none !important;
